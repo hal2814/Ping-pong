@@ -22,12 +22,13 @@ function pingpong(num){
   return range;
 };
 
-
 //front end
 $(document).ready(function(){
   $("#pingpongForm").submit(function(event){
     event.preventDefault();
     var number = $("#numberInput").val();
-    $("#pingpongString").text(pingpong(number));
+    for(var i=0;i<pingpong(number).length;++i){
+      $("#pingpongString").append("<li>" + pingpong(number)[i] + "</li>");
+    };
   });
 });

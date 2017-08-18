@@ -1,0 +1,36 @@
+.banner{
+  background-color: #f9e2c0;
+  text-align: center;
+  height: 200px;
+  padding: 30px;
+}
+
+.banner h1{
+  font-size: 75px;
+}
+
+.sidebar{
+  background-color: #99c699;
+  min-height: 100%;
+  height: 600px;
+}
+
+.sidebar h3{
+  color: #f9e2c0;
+}
+
+.sidebar p{
+  color: white;
+}
+
+.bar{
+  height: 30px;
+}
+
+body{
+  background-color: lightgrey;
+}
+.output{
+  background-color: lightgrey;
+  padding-left: 15px;
+}
