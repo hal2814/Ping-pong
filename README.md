@@ -12,7 +12,7 @@ Description: Program takes an integer from the user then creates a range of numb
 | Return an array of numbers from the user that  are a range from 1 to the entered number | "5"           | "1,2,3,4,5"                                  |
 | Iterate through array of numbers and replace any divisible by 3 with the string "ping"  | "6"           | "1,2,ping,4,5,ping"                          |
 | Iterate through array of numbers and replace any divisible by 5 with the string "pong"  | "10"          | "1,2,3,4,pong,6,7,8,9,pong"                    |
-| Iterate through array of numbers and replace any divisible by 5 with the string "pong"  | "15"          | "1,2,3,4,5,6,7,8,9,10,11,12,13,14,ping-pong" |
+| Iterate through array of numbers and replace any divisible by 15 with the string "pong"  | "15"          | "1,2,3,4,5,6,7,8,9,10,11,12,13,14,ping-pong" |
 
 Github page: https://hal2814.github.io/Ping-pong/
 
