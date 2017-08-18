@@ -18,7 +18,6 @@ function pingpong(num){
       range[j] = "ping-pong";
     };
   };
-
   return range;
 };
 
@@ -29,6 +28,7 @@ $(document).ready(function(){
     var number = $("#numberInput").val();
     for(var i=0;i<pingpong(number).length;++i){
       $("#pingpongString").append("<li>" + pingpong(number)[i] + "</li>");
+      $("#pingpongReversed").prepend("<li>" + pingpong(number)[i] + "</li>");
     };
   });
 });

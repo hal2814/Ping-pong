@@ -26,7 +26,6 @@
         </div>
         <div class="col-md-8">
           <div class="output">
-
             <h2>Let's Play!</h2>
             <h3>Rules:</h3>
             <p>Ping-Pong will count up to your number from 1 with the following exceptions: </p>
@@ -40,7 +39,19 @@
               <input id="numberInput" type="num">
               <button type="submit" class="btn">Ping-Pong!</button>
             </form>
-            <ul><span id="pingpongString"></span></ul>
+            <label>Reverse the order: </label>
+            <button onclick="$('#reversedHide').show()" id="rev">Reverse it!</button>
+            <div class="row">
+              <div class="col-md-6">
+                <ul><span id="pingpongString"></span></ul>
+              </div>
+              <div id="reversedHide">
+                <div class="col-md-6">
+                  <p>Reversed Order: </p>
+                  <ul><span id="pingpongReversed"></span></ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

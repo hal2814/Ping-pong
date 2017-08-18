@@ -34,3 +34,7 @@ body{
   background-color: lightgrey;
   padding-left: 15px;
 }
+
+#reversedHide{
+  display: none;
+}
