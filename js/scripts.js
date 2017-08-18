@@ -30,5 +30,8 @@ $(document).ready(function(){
       $("#pingpongString").append("<li>" + pingpong(number)[i] + "</li>");
       $("#pingpongReversed").prepend("<li>" + pingpong(number)[i] + "</li>");
     };
+    $("#pingpongForm").click(function() {
+    window.location.reload()
+    });
   });
 });
