@@ -8,15 +8,15 @@ function pingpong(num){
   };
 
   for(var j =0;j<range.length;++j){
-    if(range[j]%3===0){
+    if(range[j]%3===0 && !(range[j]%5===0)){
       range[j] = "ping";
     };
-    /*if(range[j]%5===0){
+    if(range[j]%5===0 && !(range[j]%3===0)){
       range[j] = "pong";
     };
-    if(range[j]%15===0){
+    if(range[j]%5===0 && range[j]%3===0){
       range[j] = "ping-pong";
-    };*/
+    };
   };
 
   return range;
