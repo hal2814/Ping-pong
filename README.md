@@ -14,4 +14,6 @@ Description: Program takes an integer from the user then creates a range of numb
 | Iterate through array of numbers and replace any divisible by 5 with the string "pong"  | "10"          | "1,2,3,4,pong,6,7,8,9,pong"                    |
 | Iterate through array of numbers and replace any divisible by 5 with the string "pong"  | "15"          | "1,2,3,4,5,6,7,8,9,10,11,12,13,14,ping-pong" |
 
+Github page: https://hal2814.github.io/Ping-pong/
+
 copyright Nate McGregor 2017 Epicodus
