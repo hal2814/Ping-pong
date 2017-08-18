@@ -40,7 +40,19 @@ body{
   display: none;
 }
 
+.output img{
+  width: 40%;
+}
+
 img{
   width: 100%;
   border-radius: 8%
+}
+
+#big{
+  display: none;
+}
+
+#small{
+  display: none;
 }

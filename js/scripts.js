@@ -21,11 +21,20 @@ function pingpong(num){
   return range;
 };
 
+
 //front end
 $(document).ready(function(){
   $("#pingpongForm").submit(function(event){
     event.preventDefault();
     var number = $("#numberInput").val();
+    if(number > 49){
+      $("#big").show();
+      alert("That's a big number! This is going to be a long list")
+    };
+    if(number < 10){
+      $("#small").show();
+      alert("That's a tiny number! You're not going to see a whole lot there")
+    };
     for(var i=0;i<pingpong(number).length;++i){
       $("#pingpongString").append("<li>" + pingpong(number)[i] + "</li>");
       $("#pingpongReversed").prepend("<li>" + pingpong(number)[i] + "</li>");
